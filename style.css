@@ -1,0 +1,38 @@
+
+.container .map{
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	/* min-height:100vh; */
+	height:550px;
+	margin:200px auto;
+	position:relative;
+}
+.container .map iframe{
+	height:550px;
+	width:780px;
+	border:5px solid pink !important;
+	border-radius:5px;
+}
+.container .payment h2{
+	text-align:center;
+}
+.container .row{
+	display:flex;
+	flex-wrap:wrap;
+	gap:10px;
+	justify-content:center;
+}
+.container .row .col{
+	margin:10px;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    padding:10px 20px;
+	border-radius:5px;
+}
+.container .row .col a{
+	display:block;
+	text-decoration:none;
+	color:crimson;
+	text-align:center;
+	margin:10px 0px;
+}
